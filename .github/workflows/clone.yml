@@ -14,6 +14,7 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
+             cd .. 
              cd pub/ 
              git clone https://github.com/dkyung/dkyung.github.io.git
             
